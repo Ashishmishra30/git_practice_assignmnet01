@@ -1,7 +1,6 @@
 function Palindrome(num){
-       //write code here
 
-let n= num;
+let n= num.toString();
 let bag="";
 for(let i=n.length-1; i>=0; i--){
     bag=bag+n[i];
